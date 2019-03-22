@@ -9,7 +9,7 @@ export function useWeatherApi () {
 
   useEffect(() => {
     const cityList = cities.join(',');
-    const link = `http://api.openweathermap.org/data/2.5/group?id=${ cityList }&units=metric&APPID=${ API_KEY }`;
+    const link = `https://api.openweathermap.org/data/2.5/group?id=${ cityList }&units=metric&APPID=${ API_KEY }`;
 
     fetch(link).then(response => response.json()).then(json => {
       setWeatherData(json.list);
