@@ -1,0 +1,30 @@
+.loader {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.leftColumn {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 20px;
+  width: 50%;
+}
+
+.rightColumn {
+  width: 40%;
+}
+
+.additional {
+  display: flex;
+  justify-content: space-between;
+}

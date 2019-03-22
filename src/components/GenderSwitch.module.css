@@ -1,0 +1,19 @@
+.button {
+  border-radius: 4px;
+  overflow: hidden;
+  width: 150px;
+}
+
+.switch {
+  cursor: pointer;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: aliceblue;
+  color: slategray;
+}
+
+.selected {
+  background-color: cornflowerblue;
+  color: indigo;
+}
